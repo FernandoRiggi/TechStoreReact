@@ -1,0 +1,40 @@
+.marca {
+    width: 280px;
+}
+
+.marca .cabecalho {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px; /* Espaço extra para a imagem */
+}
+
+.marca img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px; /* Manter proporção, igual ao width */
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+
+
+.marca .rodape {
+    padding-top: 60px; /* Ajuste menor para alinhar melhor */
+}
+
+
+.marca .rodape h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.marca .rodape h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 16px;
+}

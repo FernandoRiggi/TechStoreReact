@@ -1,0 +1,14 @@
+.checkbox-container {
+    display: flex;          /* Alinha os itens na horizontal */
+    gap: 20px;              /* Espaço entre os itens */
+    margin-top: 10px;
+}
+
+.checkbox-container label {
+    font-size: 16px;
+}
+
+.checkbox-container input[type="radio"] {
+    transform: scale(2);  /* Aumenta o tamanho da checkbox */
+    margin-right: 10px;      /* Espaço entre a checkbox e o texto */
+}

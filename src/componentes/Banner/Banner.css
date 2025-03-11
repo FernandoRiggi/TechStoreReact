@@ -1,8 +1,24 @@
-.banner{
-    background-color: darkgrey;
-    text-align: center;
+/* Banner.css */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.banner {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 72px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #333;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
 }
 
-.banner img{
-    max-width: 100%;
+.banner span {
+  background: linear-gradient(45deg, #4e7bb6, #1d2a54); /* Gradiente em tons de azul */
+  -webkit-background-clip: text;
+  color: transparent; /* Deixa o texto transparente para exibir o gradiente */
 }

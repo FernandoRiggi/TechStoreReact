@@ -7,7 +7,7 @@ function Banner() {
     return(
     
         <header className="banner">
-            <img src="/imagens/bannertechstore.jpeg" alt="logotechstore" />
+            <span>Tech Store</span>
         </header>
     )
 }
