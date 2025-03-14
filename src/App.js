@@ -45,6 +45,13 @@ function App() {
   const [produtos, setProdutos] = useState([])
 
   const adicionaProduto = (produto) => {
+    const produtoExistente = produtos.some(
+      (produto) => produto.nome === produto.nome && produto.secao === produto.secao
+    );
+    if(produtoExistente) {
+      alert("Produto já cadastrado nesta seção!");
+      return;
+    }
     const listaNova = produtos.slice();
     listaNova.push(produto);
     setProdutos(listaNova);
