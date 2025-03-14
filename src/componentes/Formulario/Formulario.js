@@ -30,7 +30,7 @@ const Formulario = (props) => {
     const aoSalvar = (evento) => {
         evento.preventDefault()
         console.log('Form foi sumetido', secao, marca, nome, preco, estadoProduto)
-        if (!secao || !marca || !nome || !preco || !estado) {
+        if (!secao || !marca || !nome || !preco || !estadoProduto) {
             alert("Por favor, preencha todos os campos.");
             return;
             }

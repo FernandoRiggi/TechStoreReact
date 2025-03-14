@@ -17,27 +17,27 @@ function App() {
     {
       nome: 'Computadores',
       corPrimaria: '#000000',
-      corSecundaria: '#ADD8E6'
+      corSecundaria: '#B3E5FC'
     },
     {
       nome: 'Acessórios',
       corPrimaria: '#000000',
-      corSecundaria: '#87CEEB'
+      corSecundaria: '#64B5F6'
     },
     {
       nome: 'Impressoras',
       corPrimaria: '#000000',
-      corSecundaria: '#0000FF'
+      corSecundaria: '#1976D2'
     },
     {
       nome: 'Games',
       corPrimaria: '#000000',
-      corSecundaria: '#1E3A5F'
+      corSecundaria: '#0D47A1'
     },
     {
       nome: 'Gadgets',
       corPrimaria: '#000000',
-      corSecundaria: '#00008B'
+      corSecundaria: '#002171'
     }
   ]
 
