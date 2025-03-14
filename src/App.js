@@ -53,7 +53,7 @@ function App() {
       return;
     }
     const listaNova = produtos.slice();
-    listaNova.push(produto);
+    listaNova.push(novoProduto);
     setProdutos(listaNova);
   };
   const produtosPorSecao = secoes.map(secao => ({
