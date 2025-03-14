@@ -44,9 +44,9 @@ function App() {
   const listaSecoes = secoes.map(secao => secao.nome)
   const [produtos, setProdutos] = useState([])
 
-  const adicionaProduto = (produto) => {
+  const adicionaProduto = (novoProduto) => {
     const produtoExistente = produtos.some(
-      (produto) => produto.nome === produto.nome && produto.secao === produto.secao
+      (produto) => produto.nome === novoProduto.nome && produto.secao === novoProduto.secao
     );
     if(produtoExistente) {
       alert("Produto já cadastrado nesta seção!");
